@@ -7,6 +7,28 @@
     h1.title-name {
         font-size: 24px;
     }
+
+    .columns-2 {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .para-formatted {
+        width: 50vw !important;
+        text-align: justify;
+
+    }
+    .head-formatted {
+        width: 50vw !important;
+        text-align: center;
+        font-size: 24px;
+        font-family: 'Neue Montreal Bold', sans-serif;
+    }
+
+    .content-data {
+        width: 100vw;
+    }
 }
 
 /* Medium screens */
@@ -68,6 +90,9 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
+
+    display: flex;
+    flex-direction: column;
 }
 
 @font-face {
@@ -103,12 +128,13 @@ body {
     color: #3C4144;
 }
 
-.content-center {
+div.content-center {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
+
     /* Or any other height that fits your design */
 }
 
@@ -125,7 +151,6 @@ li.sidebar-icons {
 .left-sidebar {
     margin-top: 10vh;
     position: fixed;
-    align-self: center;
     height: 10vh;
     z-index: 2;
 }
@@ -136,4 +161,36 @@ footer {
     background-color: #DCDAD7;
     flex-direction: column;
     padding: 24px;
+}
+
+.para-formatted {
+    text-justify: auto;
+}
+
+div.content-data {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2.para-formatted {
+    text-align: center;
+    width: 400px;
+}
+
+.columns-2 {
+    display: flex;
+
+}
+
+.column {
+    min-width: 35vw;
+    max-width: 35vw;
+    padding: 24px;
+    padding-top: 0px;
+}
+
+.justified {
+    text-justify: auto;
+    text-align: justify;
 }
