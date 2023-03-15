@@ -1,0 +1,136 @@
+/* Small screens */
+@media (max-width: 767px) {
+    div.conditional-center {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Medium screens */
+@media (min-width: 768px) and (max-width: 991px) {
+    .title-name {
+        font-size: 16px;
+    }
+}
+
+/* Large screens */
+@media (min-width: 992px) {
+    .title-name {
+        font-size: 16px;
+    }
+}
+
+.hero {
+    font-size: 7vw;
+}
+
+.hero-typed {
+    font-size: 9vw;
+    
+}
+
+.hero-text {
+    width: 60vw;
+}
+
+#hero-1 {
+    padding-left: 21vw;
+    height: 5vw;
+}
+#hero-2 {
+    height: 5vw;
+}
+#hero-3 {
+    padding-left: 9vw;
+    height: 5vw;
+}
+#hero-4 {
+    padding-left: 3vw;
+    width: 70vw;
+    height: 5vw;
+}
+#hero-5 {
+    padding-left: 17.2vw;
+    height: 5vw;
+}
+
+
+:root {
+    font-family: 'Neue Montreal Regular', sans-serif;
+}
+
+body {
+    background-color: #C8C4C0;
+    color: #3C4144;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+@font-face {
+    font-family: 'Neue Montreal Medium';
+    src: url('FONT/NeueMontreal-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Neue Montreal Regular';
+    src: url('FONT/NeueMontreal-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Neue Montreal Bold';
+    src: url('FONT/NeueMontreal-Bold.otf') format('opentype');
+}
+
+.title-name {
+    font-family: 'Neue Montreal Medium', sans-serif;
+    margin: 24px;
+}
+
+.page {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    font-family: 'Neue Montreal Bold', sans-serif;
+
+    margin: 24px;
+    color: #3C4144;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    /* Or any other height that fits your design */
+}
+
+.hero-typed {
+    font-family: 'Allura', cursive;
+}
+
+li.sidebar-icons {
+    list-style: none;
+    margin-bottom: 40px;
+    width: 12px;
+}
+
+.left-sidebar {
+    margin-top: 10vh;
+    position: fixed;
+    align-self: center;
+    height: 10vh;
+    z-index: 2;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    background-color: #DCDAD7;
+    flex-direction: column;
+    padding: 24px;
+}
