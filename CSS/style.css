@@ -85,7 +85,8 @@
 }
 
 body {
-    background-color: #C8C4C0;
+    background-color: #C8C4C0; 
+    background-image: url(../IMG/bg-texture.png);
     color: #3C4144;
     margin: 0;
     padding: 0;
