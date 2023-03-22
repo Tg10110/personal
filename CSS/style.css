@@ -22,7 +22,6 @@
     }
 
     p.head-formatted {
-        width: 50vw !important;
         text-align: center;
         font-size: 24px !important;
         font-family: 'Neue Montreal Bold', sans-serif;
@@ -40,7 +39,6 @@
     }
 
     p.head-formatted {
-        width: 50vw !important;
         text-align: justify;
         font-size: 24px !important;
         font-family: 'Neue Montreal Bold', sans-serif;
@@ -216,8 +214,7 @@ h2.para-formatted {
     text-align: justify;
 }
 
-p.head-formatted {
-    width: 50vw !important;
+div.head-formatted {
     text-align: justify;
     font-size: 24px !important;
     font-family: 'Neue Montreal Bold', sans-serif;
