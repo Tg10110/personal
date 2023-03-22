@@ -4,6 +4,7 @@
         display: flex;
         justify-content: center;
     }
+
     h1.title-name {
         font-size: 24px;
     }
@@ -11,7 +12,7 @@
     .columns-2 {
         display: flex;
         flex-direction: column;
-        
+
     }
 
     .para-formatted {
@@ -19,10 +20,11 @@
         text-align: justify;
 
     }
-    .head-formatted {
+
+    p.head-formatted {
         width: 50vw !important;
         text-align: center;
-        font-size: 24px;
+        font-size: 24px !important;
         font-family: 'Neue Montreal Bold', sans-serif;
     }
 
@@ -36,12 +38,26 @@
     h1.title-name {
         font-size: 16px;
     }
+
+    p.head-formatted {
+        width: 50vw !important;
+        text-align: justify;
+        font-size: 24px !important;
+        font-family: 'Neue Montreal Bold', sans-serif;
+    }
 }
 
 /* Large screens */
 @media (min-width: 992px) {
     .title-name {
         font-size: 16px;
+    }
+
+    p.head-formatted {
+        width: 50vw !important;
+        text-align: justify;
+        font-size: 24px !important;
+        font-family: 'Neue Montreal Bold', sans-serif;
     }
 }
 
@@ -51,7 +67,7 @@
 
 .hero-typed {
     font-size: 9vw;
-    
+
 }
 
 .hero-text {
@@ -62,18 +78,22 @@
     padding-left: 21vw;
     height: 5vw;
 }
+
 #hero-2 {
     height: 5vw;
 }
+
 #hero-3 {
     padding-left: 9vw;
     height: 5vw;
 }
+
 #hero-4 {
     padding-left: 3vw;
     width: 70vw;
     height: 5vw;
 }
+
 #hero-5 {
     padding-left: 17.2vw;
     height: 5vw;
@@ -85,7 +105,7 @@
 }
 
 body {
-    background-color: #C8C4C0; 
+    background-color: #C8C4C0;
     background-image: url(../IMG/bg-texture.png);
     color: #3C4144;
     margin: 0;
@@ -194,4 +214,11 @@ h2.para-formatted {
 .justified {
     text-justify: auto;
     text-align: justify;
+}
+
+p.head-formatted {
+    width: 50vw !important;
+    text-align: justify;
+    font-size: 24px !important;
+    font-family: 'Neue Montreal Bold', sans-serif;
 }
